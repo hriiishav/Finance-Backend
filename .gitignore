@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment variables (secrets like DB, API keys, Cloudinary creds)
+.env
+.env.local
+.env.*.local
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.next/
+out/
+
+# MongoDB dumps & data
+dump/
+*.bson
+*.json
+*.lock
+
+# Redis dump files
+dump.rdb
+appendonly.aof
+
+# Cloudinary / local uploads (keep remote only)
+uploads/
+public/uploads/
+tmp/
